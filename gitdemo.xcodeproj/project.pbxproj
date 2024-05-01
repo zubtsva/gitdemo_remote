@@ -14,6 +14,7 @@
 		FAE9870D2BE23DC00052FB02 /* gitdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9870C2BE23DC00052FB02 /* gitdemoTests.swift */; };
 		FAE987172BE23DC00052FB02 /* gitdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE987162BE23DC00052FB02 /* gitdemoUITests.swift */; };
 		FAE987192BE23DC00052FB02 /* gitdemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE987182BE23DC00052FB02 /* gitdemoUITestsLaunchTests.swift */; };
+		FAE9875D2BE244A70052FB02 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9875C2BE244A70052FB02 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FAE987122BE23DC00052FB02 /* gitdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE987162BE23DC00052FB02 /* gitdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitdemoUITests.swift; sourceTree = "<group>"; };
 		FAE987182BE23DC00052FB02 /* gitdemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitdemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAE9875C2BE244A70052FB02 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				FAE986FA2BE23DBD0052FB02 /* gitdemoApp.swift */,
 				FAE986FC2BE23DBD0052FB02 /* ContentView.swift */,
+				FAE9875C2BE244A70052FB02 /* SecondView.swift */,
 				FAE986FE2BE23DBF0052FB02 /* Assets.xcassets */,
 				FAE987002BE23DC00052FB02 /* gitdemo.entitlements */,
 				FAE987012BE23DC00052FB02 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9875D2BE244A70052FB02 /* SecondView.swift in Sources */,
 				FAE986FD2BE23DBD0052FB02 /* ContentView.swift in Sources */,
 				FAE986FB2BE23DBD0052FB02 /* gitdemoApp.swift in Sources */,
 			);
